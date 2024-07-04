@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+    <title>SCWblog || encryptdecrypt</title>
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1>encryptdecrypt messsage</h1>
+        <button id="info">info</button>
+    </header>
+
+    <main>
+        <section>
+            <label for="input" style="text-align: left;" class="label">Input</label><br>
+            <textarea name="input" id="inputText" cols="30" rows="10"></textarea>
+        </section>
+        <section>
+            <label for="countR">Count Rate; <input type="number" name="countR" id="countRate"></label>
+            <label for="select">Method:
+                <select name="select" id="method">
+                    <option value="Encrypt">Encrypt</option>
+                    <option value="Decrypt">Decrypt</option>
+                    <option value="Reverse">Reverse</option>
+                </select>
+            </label>
+        </section>
+        <button id="btn">Encrypt</button>
+        <br>
+        <section>
+            <label for="output" style="text-align: left;" class="label">Input</label><br>
+            <textarea name="output" id="outputText" cols="30" rows="10" readonly></textarea>
+        </section>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

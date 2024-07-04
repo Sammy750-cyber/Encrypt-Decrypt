@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: black;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    background: rgb(3, 230, 3);
+    /* border-bottom-color: lime; */
+    border-bottom: 2px solid lime;
+}
+
+.header>button {
+    background: transparent;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px 5px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main {
+    margin: 10% auto;
+    width: fit-content;
+    background: green;
+    color: lime;
+    text-align: center;
+}
+
+section {
+    width: fit-content;
+    padding: 10px;
+}
+
+section {
+    margin: auto;
+    text-align: center;
+    color: black;
+}
+
+textarea {
+    background: black;
+    color: red;
+    border: 2px solid rgb(63, 248, 63);
+    width: 300px;
+}
+
+input[type="number"] {
+    width: 50px;
+    outline: none;
+    cursor: pointer;
+    background-color: rgb(35, 230, 35);
+    border: 1px solid black;
+    color: black;
+}
+
+input,
+select {
+    outline: none;
+}
+
+select {
+    background-color: rgb(35, 230, 35);
+    border: 1px solid black;
+}
+
+#btn {
+    /* text-align: center; */
+    background: red;
+    color: orange;
+    padding: 5px 15px;
+}
+
+.label {
+    text-align: left;
+    font-size: 20px;
+}
